@@ -17,10 +17,23 @@ float -int = float
 float - float = float
 */
 
-float a = 9.2;
-int b = 2;
+// float a = 9.2;
+// int b = 2;
 //Type casting 
 // changing datatypes
-float c = (int)a/2;
-printf("%1.2f",c);
+// float c = (int)a/2;
+// printf("%1.2f",c);
+
+int first,second;
+
+printf("Enter first number: ");
+scanf("%d",&first);
+
+printf("Enter second number:");
+scanf("%d",&second);
+
+int sum = first + second;
+
+printf("The sum is %d",sum);
+
 }

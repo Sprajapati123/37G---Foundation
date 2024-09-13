@@ -18,6 +18,7 @@ int main(){
         printf("Failed");
     }
     
+    printf("I am out of if statement");
    
     
     

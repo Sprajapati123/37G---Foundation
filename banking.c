@@ -6,6 +6,8 @@ int main()
     int balance = 10000;
     int choice;
     int amount;
+    int i = 1;
+    while(i){
    printf("Welcome to XYZ Banking\n");
    printf("Choose option (1-3)\n");
    printf("1. Add Funds/Deposit\n2. Withdraw Funds\n3. Check Balance\n");
@@ -38,5 +40,7 @@ int main()
    }
    
    
+    }
+  
    
 }

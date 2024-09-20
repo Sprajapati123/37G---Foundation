@@ -1,0 +1,37 @@
+#include<stdio.h>
+
+//function declaration
+void display();
+void greet();
+
+int main(){
+    //calling a function
+    display();
+    greet();
+}
+
+//function defination
+void display(){
+    
+    printf("Hello World\n");
+}
+
+void greet(){
+    printf("Good Afternoon")
+}
+//
+//functions
+
+/*
+1. Functions with no parameter and no return type
+2. Functions with parameter but no return type
+3. Functions with no parameter but return type
+4. Functions with parameter and return type
+ */
+
+ /* Syntax
+    int a = 10;
+    return_type function_name(parameter1,...,){
+        statement
+    }
+ */

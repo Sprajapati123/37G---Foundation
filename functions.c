@@ -2,20 +2,41 @@
 
 //function declaration
 void display();
+
 void greet();
 
 void addition(int,int);
+
+int calculate();
+
+int subtract(int,int);
 
 int main(){
     //calling a function
     display();
 
     addition(10,20);
+
+    int result = calculate();
+
+    int c = subtract(10,5);
+
+    printf("%d",c);
+
     greet();
+    
+}
+
+int subtract(int a,int b){
+    return a-b;
+}
+
+int calculate(){
+    return 10;
 }
 
 void addition(int a,int b){
-    printf("sum is %d",a+b);
+    printf("sum is %d\n",a+b);
 }
 //function defination
 void display(){
@@ -24,7 +45,7 @@ void display(){
 }
 
 void greet(){
-    printf("Good Afternoon")
+    printf("Good Afternoon\n");
 }
 //
 //functions

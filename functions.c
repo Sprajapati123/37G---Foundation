@@ -1,4 +1,6 @@
 #include<stdio.h>
+//global variable
+int xyz= 10;
 
 //function declaration
 void display();
@@ -28,10 +30,16 @@ int main(){
 }
 
 int subtract(int a,int b){
+    /*
+    local variable
+    int x = 20;
+    
+    */
     return a-b;
 }
 
 int calculate(){
+    
     return 10;
 }
 

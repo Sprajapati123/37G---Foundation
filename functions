@@ -4,12 +4,19 @@
 void display();
 void greet();
 
+void addition(int,int);
+
 int main(){
     //calling a function
     display();
+
+    addition(10,20);
     greet();
 }
 
+void addition(int a,int b){
+    printf("sum is %d",a+b);
+}
 //function defination
 void display(){
     

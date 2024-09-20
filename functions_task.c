@@ -7,8 +7,9 @@ int multiply(int,int);
 
 int main(){
     int first,second,choice;
-    int i = 1;
-    while(i){
+    
+    char yes = 'y';
+    while(yes == 'y'){
         printf("\nChoose option (1-3)\n");
     printf("1. Add\n2. Subtract\n3. Multiply\n");
     scanf("%d",&choice);
@@ -38,6 +39,10 @@ int main(){
     }else{
         printf("Invalid input,\n");
     }
+
+        printf("Press y to continue n to exit");
+        scanf("%c",&yes);
+      
     }
 }
 

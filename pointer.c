@@ -1,7 +1,7 @@
-// Online C compiler to run C program online
+
 #include <stdio.h>
 // pointer
-// recursion
+
 int calculate(int *a);
 
 int main() {
@@ -18,3 +18,5 @@ int main() {
 int calculate(int *a){
     return *a * 2;
 }
+
+
